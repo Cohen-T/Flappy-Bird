@@ -1,0 +1,292 @@
+/************************
+    Universal Styles
+************************/
+*{
+    margin:0;
+    padding:0;
+}
+
+/************************
+    Header Styles
+************************/
+.header{
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cyberbullying-banner.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.header img{
+    width:150px;
+    padding-top: 60px;
+    float: left;
+    left: 50px;
+    margin-top:-70px;
+    margin-left: -70px;
+}
+
+.login-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color:#fff;
+    float:right;
+}
+
+.signup-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color:#fff;
+    float:right;
+    margin-right: 10px;
+}
+
+.header h1{
+    padding-top: 260px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+
+.header p{
+    margin: 18px 0;
+}
+/************************
+    Features Styles
+************************/
+.features{
+    padding:100px 0;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.feature-img{
+    position: relative;
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+
+.feature-details h4{
+    font-family: 600;
+    margin-top: 20px;
+}
+
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+
+/************************
+    Features Styles
+************************/
+
+.gallery{
+    padding: 100px 0;
+    background: lightblue;
+}
+
+.gallery-box img{
+    width:100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+
+.gallery-box h4{
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/************************
+    Reviews Styles
+************************/
+
+.user-feedback{
+    padding: 100px 0;
+}
+
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding-bottom: 50px;
+}
+
+.user-review p{
+    padding: 50px 10px 10px;
+}
+
+.user-feedback img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+
+.user-feedback h1{
+    padding-top: 20px;
+}
+
+.user-review p::before{
+    content:'\201d';
+    display: inline-block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    margin: -70px 0 0 170px;
+}
+
+/************************
+    Footer Styles
+************************/
+
+.footer{
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(lightblue, blue);
+    color: #fff;
+}
+
+.footer-logo{
+    width: 100px;
+    margin-top: -150px;
+    margin-bottom: -50px;
+}
+
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+
+.footer .copyright{
+    text-align: center;
+}
+
+/**********Contact**********/
+
+#contact{
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 75px;
+    background: lightblue;
+}
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: #9873ac;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: #9873ac;
+    transform: translateY(-5px);
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: #262626;
+    color: #fff;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
